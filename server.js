@@ -66,7 +66,9 @@ app.get("/", function (req, res) {
 //DISTRESS CALL
 app.post("/distress", function (req, res) {
    const ipaddress = req.connection.remoteAddress;
+   const location = ""; //from database
    //use geolocation or ipaddress to calculate location and compare to the one in the database then send distress call to phone number whose location is neer and neerest police and family members
+   const message = `this is a DISTRESS CALL from ${location} near you . SOMEONE IS IN TROUBLE`;
    nexmo.message.sendSms(
       "SecureMe",
       2348023767822,
