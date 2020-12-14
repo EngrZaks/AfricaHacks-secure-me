@@ -1,0 +1,40 @@
+/****** Main Styling ******/
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   color: #222;
+   text-align: center;
+   line-height: 1.4em;
+}
+.container {
+   padding: 10px;
+}
+.signup,
+.text-area {
+   display: none;
+}
+h1 {
+   color: #b815bb;
+   font-weight: bold;
+   margin-bottom: 80px;
+   margin-top: 50px;
+}
+.anon-btn {
+   color: #b815bb;
+   background: rgba(184, 21, 187, 0.2);
+}
+.card {
+   margin: 20px;
+}
+
+.action-call {
+   margin-top: 50px;
+}
+.action-call button {
+   margin: 5px;
+   background: #b815bb;
+}
+.block {
+   display: block;
+}

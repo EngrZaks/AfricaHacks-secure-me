@@ -1,0 +1,41 @@
+{
+   "name": "desec-server",
+   "version": "1.0.0",
+   "description": "AricaHacks DeSec Engineers Project Backend",
+   "engines": {
+      "node": "12.x"
+   },
+   "main": "server.js",
+   "scripts": {
+      "start": "node server.js"
+   },
+   "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.0",
+      "dotenv": "^8.2.0",
+      "ejs": "^2.5.6",
+      "express": "^4.15.2",
+      "md5": "^2.3.0",
+      "mongodb": "^3.6.3",
+      "mongoose": "^5.10.14",
+      "multer": "^1.4.2",
+      "nexmo": "^2.9.1",
+      "valid-url": "^1.0.9"
+   },
+   "devDependencies": {
+      "got": "^11.3.0",
+      "tape": "^4.7.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/EngrZaks/DeSec"
+   },
+   "keywords": [
+      "AfricaHacks",
+      "node",
+      "express",
+      "heroku",
+      "DevZaks"
+   ],
+   "license": "MIT"
+}
